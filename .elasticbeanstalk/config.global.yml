@@ -1,0 +1,11 @@
+branch-defaults:
+  master:
+    environment: hello-eb-production
+    group_suffix: null
+  develop:
+    environment: hello-eb-staging
+    group_suffix: null
+global:
+  application_name: hello-eb
+  default_platform: Ruby 2.3 (Puma)
+  default_region: ap-northeast-1
